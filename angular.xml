@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>plg_system_angular</name>
+	<author>Sanjeev Shrestha</author>
+	<creationDate>Jan 2013</creationDate>
+	<copyright>Copyright (C) 2013 Sanjeev Shrestha. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>extensions@sanjeevshrestha.com.np</authorEmail>
+	<authorUrl>www.sanjeevshrestha.com.np</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_ANGULAR_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="angular">angular.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_angular.ini</language>
+		<language tag="en-GB">en-GB.plg_system_angular.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="component" type="text"
+					description="PLG_SYSTEM_ANGULAR_FIELD_COMPONENT_DESC"
+					label="PLG_SYSTEM_ANGULAR_FIELD_LOG_COMPONENT_LABEL"
+					default="0"
+				>
+					
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
